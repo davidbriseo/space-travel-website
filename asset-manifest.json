@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.98948814.css",
-    "main.js": "/static/js/main.ee38c211.js",
-    "static/media/background-home-desktop.jpg": "/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
-    "static/media/background-destination-desktop.jpg": "/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
-    "static/media/background-home-tablet.jpg": "/static/media/background-home-tablet.bc9efcc3281fa6801077.jpg",
-    "static/media/background-crew-desktop.jpg": "/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
-    "static/media/background-destination-tablet.jpg": "/static/media/background-destination-tablet.8f55d346d8b6cfd95ab7.jpg",
-    "static/media/background-technology-desktop.jpg": "/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
-    "static/media/background-crew-tablet.jpg": "/static/media/background-crew-tablet.16d51cf61e98ce45eb61.jpg",
-    "static/media/background-home-mobile.jpg": "/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
-    "static/media/background-technology-tablet.jpg": "/static/media/background-technology-tablet.48c38b028217ee0096c4.jpg",
-    "static/media/background-destination-mobile.jpg": "/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
-    "index.html": "/index.html",
-    "static/media/icon-close.svg": "/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
-    "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.98948814.css.map": "/static/css/main.98948814.css.map",
-    "main.ee38c211.js.map": "/static/js/main.ee38c211.js.map"
+    "main.css": "/space-travel-website/static/css/main.8728c9e8.css",
+    "main.js": "/space-travel-website/static/js/main.7f5d675a.js",
+    "static/media/background-home-desktop.jpg": "/space-travel-website/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/background-destination-desktop.jpg": "/space-travel-website/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/background-home-tablet.jpg": "/space-travel-website/static/media/background-home-tablet.bc9efcc3281fa6801077.jpg",
+    "static/media/background-crew-desktop.jpg": "/space-travel-website/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/background-destination-tablet.jpg": "/space-travel-website/static/media/background-destination-tablet.8f55d346d8b6cfd95ab7.jpg",
+    "static/media/background-technology-desktop.jpg": "/space-travel-website/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
+    "static/media/background-crew-tablet.jpg": "/space-travel-website/static/media/background-crew-tablet.16d51cf61e98ce45eb61.jpg",
+    "static/media/background-home-mobile.jpg": "/space-travel-website/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
+    "static/media/background-technology-tablet.jpg": "/space-travel-website/static/media/background-technology-tablet.48c38b028217ee0096c4.jpg",
+    "static/media/background-destination-mobile.jpg": "/space-travel-website/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
+    "index.html": "/space-travel-website/index.html",
+    "static/media/icon-close.svg": "/space-travel-website/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
+    "static/media/icon-hamburger.svg": "/space-travel-website/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
+    "main.8728c9e8.css.map": "/space-travel-website/static/css/main.8728c9e8.css.map",
+    "main.7f5d675a.js.map": "/space-travel-website/static/js/main.7f5d675a.js.map"
   },
   "entrypoints": [
-    "static/css/main.98948814.css",
-    "static/js/main.ee38c211.js"
+    "static/css/main.8728c9e8.css",
+    "static/js/main.7f5d675a.js"
   ]
 }

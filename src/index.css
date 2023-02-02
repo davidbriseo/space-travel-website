@@ -1,8 +1,3 @@
-/* body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
 /* -------------- */
 /* Custion properties */
 /* -------------- */
@@ -726,7 +721,6 @@ li:has(.active){
   }
 
   .grid-container--crew{
-    /* padding-bottom: 3em; */
     grid-template-areas:
       ". title   image ."
       ". content image ."
@@ -734,7 +728,7 @@ li:has(.active){
       ;
   }
   .crew-image img{
-    max-width: 90%;
+    max-width: clamp(78%, 5vw ,85%);
     align-self: end;
   }
 
@@ -756,10 +750,6 @@ li:has(.active){
       ;
   }
 
-  .grid-container--technology > *{
-    outline: cyan solid 1px;
-  }
-
   .grid-container--technology > .number-indicators{
     flex-direction: column;
     justify-self: left;
@@ -768,7 +758,5 @@ li:has(.active){
   .grid-container--technology > img{
     justify-self: right;
   }
-  
-  
 
 }

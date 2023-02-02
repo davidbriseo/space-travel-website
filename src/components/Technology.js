@@ -1,4 +1,4 @@
-import {Link, Route, Routes, NavLink} from "react-router-dom"
+import {Route, Routes, NavLink} from "react-router-dom"
 import data from "../data.json"
 import TechnologyDetail from "./details-pages/TechnologyDetail"
 import TechnologyIndex from "./index-pages/TechnologyIndex"

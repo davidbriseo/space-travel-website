@@ -3,7 +3,7 @@ import Home from "./components/Home"
 import Destination from "./components/Destination"
 import Crew from "./components/Crew"
 import Technology from "./components/Technology"
-import {Routes, Route, Link, useLocation, NavLink} from "react-router-dom"
+import {Routes, Route, NavLink} from "react-router-dom"
 import hamburgerIcon from "./icon-hamburger.svg"
 import closeIcon from "./icon-close.svg"
 
@@ -19,15 +19,6 @@ function App() {
 
   const iconStyle = navState? {backgroundImage: `url(${closeIcon})`} 
   : {backgroundImage: `url(${hamburgerIcon})`}
- 
-  const {pathname} = useLocation()
-
-  console.log(pathname)
-
-  
-  // console.log(location.pathname)
-  // console.log(homeRef.current.children[0].getAttribute("href"))
-  // const homeActiveStyle = currentPath === homeRefPath? {borderColor: "rgba( var(--clr-white), 1"} : null
 
   return (
     <div className="app home">

@@ -5,10 +5,11 @@ function DestinationDetail(){
 
     const {destinationId} = useParams()
     const detailData= data.destinations.find(dest => dest.id === destinationId)
+    const imagePath = detailData.images.png.replace(/^\./, "")
 
     return(
         <>
-            <img src={`.${detailData.images.png}`} alt=""/>
+            <img src={`${process.env.PUBLIC_URL+imagePath}`} alt={`${detailData.name}`}/>
             <section className="destination-info flow">
                 <h2 className="ff-serif uppercase fs-800">{detailData.name}</h2>
                 <p className="fs-400">{detailData.description}</p>

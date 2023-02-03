@@ -6,6 +6,8 @@ function TechnologyDetail(){
     const {techId} = useParams()
     const techData = data.technology.find(item => item.id === techId)
     const [windowWidth, setWindowWidth] = React.useState(window.innerWidth)
+    const imagePathPortrait = techData.images.portrait.replace(/^\./, "")
+    const imagePathLandscape = techData.images.landscape.replace(/^\./, "")
     
     React.useEffect(() => {
         function watchWidth() {
@@ -19,11 +21,13 @@ function TechnologyDetail(){
         }
     }, [])
 
-    const imgSource = windowWidth > 719 ? `.${techData.images.portrait}` : `.${techData.images.landscape}`  
+    const imgSource = windowWidth > 719 ? 
+        `${process.env.PUBLIC_URL+imagePathPortrait}` 
+        : `${process.env.PUBLIC_URL+imagePathLandscape}`  
 
     return(
         <>
-            {<img src={imgSource} alt=""/>}
+            {<img src={imgSource} alt={`${techData.name}`}/>}
             <div className="technology-info">
                 <h1 className="ff-sans-cond uppercase text-accent letter-spacing-2 fs-400">The Terminology...</h1>
                 <h2 className="ff-serif uppercase fs-700">{techData.name}</h2>

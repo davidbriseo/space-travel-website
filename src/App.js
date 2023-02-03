@@ -24,7 +24,7 @@ function App() {
     <div className="app home">
       <header className="primary-header flex">
         <div>
-          <img src="../assets/shared/logo.svg" alt="space tourism logo" className="logo"/>
+          <img src={`${process.env.PUBLIC_URL}/assets/shared/logo.svg`} alt="space tourism logo" className="logo"/>
         </div>
         <button className="mobile-nav-toggle" style={iconStyle} aria-controls="primary-navigation" onClick={handleClick}><span className="sr-only" aria-expanded="false">Menu</span></button>
         <nav>

@@ -56,3 +56,5 @@ Users should be able to:
 - [A Modern CSS Reset](https://andy-bell.co.uk/a-modern-css-reset/) - CSS Reset code to make sure we work around some minor CSS issues from the start.
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me to refresh CSS Gid concepts and have a quick visual aide. 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me to refresh CSS Flexbox concepts and have a quick visual aide.
+- [Deploying React apps to GitHub Pages](https://blog.logrocket.com/deploying-react-apps-github-pages/) - Steps to correctly deploy a basic React App to GH Pages.
+- [How to Deploy a Routed React App to GitHub Pages](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/) - React Apps posted to Github Pages with routing need some extre configuration, this article gave the basic idea of what is the issue. 

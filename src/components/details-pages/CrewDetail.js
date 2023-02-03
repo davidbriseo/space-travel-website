@@ -4,10 +4,12 @@ import data from "../../data.json"
 function CrewDetail(){
     const {crewId} = useParams()
     const crewMemberData= data.crew.find(member => member.id === crewId)
+    const imagePath = crewMemberData.images.png.replace(/^\./, "")
+
     return(
         <>
             <div className="crew-image grid">
-                <img src={`.${crewMemberData.images.png}`} alt=""/>
+                <img src={`${process.env.PUBLIC_URL+imagePath}`} alt={`${crewMemberData.name} portrait`}/>
             </div>
             <section className="crew-info flow">
                 <h2 className="ff-serif uppercase fs-300">{crewMemberData.role}</h2>
